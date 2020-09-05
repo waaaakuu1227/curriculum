@@ -1,8 +1,10 @@
 package study;
 
 
+import constants.FruitsConstants;
 //②Fruits.javaをインポートしなさい。
 import fruits.Fruits;
+
 /**
  * 本課題では、基本的なJavaの構造と、importについて理解を深めていきましょう。
  *
@@ -22,7 +24,7 @@ public class Study {
 
 
         Fruits fruits= new Fruits();
-        Fruits.printFruits("レモン",20);
+        fruits.printFruits(FruitsConstants.FRUITS_LEMON_04,FruitsConstants.FRUITS_COUNT_20);
 
     }
 }
